@@ -8,6 +8,8 @@ function toggleDarkMode() {
 
   // add the dark css class to all visual page elements
   pageBody.classList.toggle("dark");
-  // IF 
-
+  // IF the page is in dark mode, make the button say "light mode" r else if the page is in light mode, make the button say " dark mode"
+  if (pageBody.classList.contains('dark')){
+    // then make the button say "mode"
+  }
 }
