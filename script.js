@@ -6,6 +6,8 @@ function toggleDarkMode() {
   // access the dark mode buttom using document.getELementByID() or document.getElelment byID and store is it as a variable
   const button = document.getElementById("#dark-mode-button")
 
+  // add the dark css class to all visual page elements
+  pageBody.classList.toggle("dark");
   // 
 
 }
